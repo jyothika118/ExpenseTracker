@@ -45,5 +45,5 @@ jobs:
           file: ./frontend/frontend.Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/ansible-frontend:latest
-            ${{ secrets.DOCKER_USERNAME }}/ansible-frontend:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/ansible-final-frontend:latest
+            ${{ secrets.DOCKER_USERNAME }}/ansible-final-frontend:${{ github.sha }}
