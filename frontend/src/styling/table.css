@@ -1,0 +1,36 @@
+.table-container {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-container th {
+  background: #2F80ED;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.table-container td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-container tr:hover {
+  background: #f5f5f5;
+}
+
+/* Total expense block */
+.total-box {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 600;
+}
