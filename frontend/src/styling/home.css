@@ -61,7 +61,7 @@
 }
 .home-container {
   min-height: 100vh;
-  background-image: url("/budget.jp-g"); /* use actual image name */
+  background-image: url("/budget.jpg"); /* use actual image name */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
